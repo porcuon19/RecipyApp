@@ -5,5 +5,8 @@
     <string name="fragment_login_hint_email">Email</string>
     <string name="fragment_login_hint_password">Password</string>
     <string name="fragment_login_sign_in">Sign in</string>
-    <string name="fragment_login_welcome">Welcome back, Sign in to continue</string>
+    <string name="fragment_login_title">Login</string>
+    <string name="fragment_login_welcome">Welcome back,\nSign in to continue</string>
+    <string name="fragment_login_have_account">Don\'t have an account?</string>
+    <string name="fragment_login_create_account">Create account</string>
 </resources>
