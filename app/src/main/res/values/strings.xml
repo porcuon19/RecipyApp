@@ -2,11 +2,23 @@
     <string name="app_name">Recipy</string>
 
     <!--  FRAGMENT LOGIN  -->
-    <string name="fragment_login_hint_email">Email</string>
-    <string name="fragment_login_hint_password">Password</string>
+    <string name="fragment_login_email">Email</string>
+    <string name="fragment_login_password">Password</string>
     <string name="fragment_login_sign_in">Sign in</string>
-    <string name="fragment_login_title">Login</string>
+    <string name="fragment_login_login">Login</string>
     <string name="fragment_login_welcome">Welcome back,\nSign in to continue</string>
     <string name="fragment_login_have_account">Don\'t have an account?</string>
     <string name="fragment_login_create_account">Create account</string>
+
+    <!--  FRAGMENT LOGIN  -->
+    <string name="fragment_registration_create_account">Create account</string>
+    <string name="fragment_registration_experience">You need to create account to get a \npersonalized experience</string>
+    <string name="fragment_registration_email">Email</string>
+    <string name="fragment_registration_name">Name</string>
+    <string name="fragment_registration_surname">Surname</string>
+    <string name="fragment_registration_password">Password</string>
+    <string name="fragment_registration_password_confirm">Confirm Password</string>
+    <string name="fragment_registration_registration">Registration</string>
+    <string name="fragment_registration_have_account">Already have an account?</string>
+    <string name="fragment_registration_sign_in">Sign In</string>
 </resources>
