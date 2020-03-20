@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Recipy</string>
+
+    <!--  FRAGMENT LOGIN  -->
+    <string name="fragment_login_hint_email">Email</string>
+    <string name="fragment_login_hint_password">Password</string>
+    <string name="fragment_login_sign_in">Sign in</string>
+    <string name="fragment_login_welcome">Welcome back, Sign in to continue</string>
+</resources>
