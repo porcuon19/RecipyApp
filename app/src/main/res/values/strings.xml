@@ -22,6 +22,12 @@
     <string name="fragment_registration_have_account">Already have an account?</string>
     <string name="fragment_registration_sign_in">Sign In</string>
 
+    <!--  FRAGMENT HOME  -->
+    <string name="fragment_home_recommendations">Recommendations</string>
+    <string name="fragment_home_favorites">Favorites</string>
+    <string name="fragment_home_cuisine">Cuisine</string>
+    <string name="fragment_home_diet">Diet</string>
+
     <!--  FRAGMENT PROFILE  -->
     <string name="fragment_profile_change_profile">Change profile</string>
     <string name="fragment_profile_change_password">Change password</string>
