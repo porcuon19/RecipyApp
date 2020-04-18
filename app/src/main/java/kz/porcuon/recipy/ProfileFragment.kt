@@ -9,9 +9,18 @@ class ProfileFragment : BaseFragment() {
     override fun getLayoutId(): Int = R.layout.fragment_profile
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
-        tvProfile.setOnClickListener {
+        tvChangeProfile.setOnClickListener {
+
+        }
+        tvChangePassword.setOnClickListener {
             val navController = Navigation.findNavController(activity!!, R.id.navHostFragment)
             navController.navigate(R.id.action_mainFragment_to_changePasswordFragment)
+        }
+        tvPreferences.setOnClickListener {
+
+        }
+        btnLogout.setOnClickListener {
+
         }
     }
 }

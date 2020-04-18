@@ -22,6 +22,12 @@
     <string name="fragment_registration_have_account">Already have an account?</string>
     <string name="fragment_registration_sign_in">Sign In</string>
 
+    <!--  FRAGMENT PROFILE  -->
+    <string name="fragment_profile_change_profile">Change profile</string>
+    <string name="fragment_profile_change_password">Change password</string>
+    <string name="fragment_profile_preferences">Preferences</string>
+    <string name="fragment_profile_logout">Logout</string>
+
     <!--  FRAGMENT CHANGE PASSWORD  -->
     <string name="fragment_change_password_title">Change password</string>
     <string name="fragment_change_password_old">Old password</string>
