@@ -124,12 +124,12 @@
     <com.google.android.material.button.MaterialButton
         android:id="@+id/btnRegistration"
         android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_height="56dp"
         android:layout_marginBottom="16dp"
-        android:backgroundTint="@color/colorAccent"
+        android:backgroundTint="@color/colorPrimary"
         android:text="@string/fragment_registration_registration"
         android:textColor="@color/colorAccentWhite"
-        app:cornerRadius="16dp"
+        app:cornerRadius="8dp"
         app:layout_constraintBottom_toTopOf="@id/llHaveAccount"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
@@ -155,7 +155,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="4dp"
             android:text="@string/fragment_registration_sign_in"
-            android:textColor="@color/colorAccent"
+            android:textColor="@color/colorPrimary"
             android:textStyle="bold" />
 
     </LinearLayout>
