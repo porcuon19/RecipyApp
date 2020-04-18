@@ -70,12 +70,12 @@
     <com.google.android.material.button.MaterialButton
         android:id="@+id/btnSignIn"
         android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_height="56dp"
         android:layout_marginBottom="16dp"
-        android:backgroundTint="@color/colorAccent"
+        android:backgroundTint="@color/colorPrimary"
         android:text="@string/fragment_login_sign_in"
         android:textColor="@color/colorAccentWhite"
-        app:cornerRadius="16dp"
+        app:cornerRadius="8dp"
         app:layout_constraintBottom_toTopOf="@id/llCreateAccount"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
@@ -101,7 +101,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="4dp"
             android:text="@string/fragment_login_create_account"
-            android:textColor="@color/colorAccent"
+            android:textColor="@color/colorPrimary"
             android:textStyle="bold" />
 
     </LinearLayout>
