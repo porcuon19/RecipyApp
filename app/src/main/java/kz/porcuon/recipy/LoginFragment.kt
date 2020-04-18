@@ -13,7 +13,7 @@ class LoginFragment : BaseFragment() {
             findNavController().navigate(R.id.action_loginFragment_to_registrationFragment)
         }
         btnSignIn.setOnClickListener {
-
+            findNavController().navigate(R.id.action_loginFragment_to_mainFragment)
         }
     }
 }

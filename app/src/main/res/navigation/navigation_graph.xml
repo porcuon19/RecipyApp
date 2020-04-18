@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/navigation_graph"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_graph"
     app:startDestination="@id/loginFragment">
 
     <fragment
         android:id="@+id/loginFragment"
         android:name="kz.porcuon.recipy.LoginFragment"
-        android:label="LoginFragment" >
+        android:label="LoginFragment"
+        tools:layout="@layout/fragment_login">
         <action
             android:id="@+id/action_loginFragment_to_registrationFragment"
             app:destination="@id/registrationFragment"
@@ -14,13 +17,27 @@
             app:exitAnim="@anim/exit_right_to_left"
             app:popEnterAnim="@anim/enter_left_to_right"
             app:popExitAnim="@anim/exit_left_to_right" />
+        <action
+            android:id="@+id/action_loginFragment_to_mainFragment"
+            app:destination="@id/mainFragment" />
     </fragment>
     <fragment
         android:id="@+id/registrationFragment"
         android:name="kz.porcuon.recipy.RegistrationFragment"
-        android:label="RegistrationFragment" />
+        android:label="RegistrationFragment"
+        tools:layout="@layout/fragment_registration"/>
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="kz.porcuon.recipy.MainFragment"
+        android:label="MainFragment"
+        tools:layout="@layout/fragment_main">
+        <action
+            android:id="@+id/action_mainFragment_to_changePasswordFragment"
+            app:destination="@id/changePasswordFragment" />
+    </fragment>
     <fragment
         android:id="@+id/changePasswordFragment"
         android:name="kz.porcuon.recipy.ChangePasswordFragment"
-        android:label="ChangePasswordFragment" />
+        android:label="ChangePasswordFragment"
+        tools:layout="@layout/fragment_change_password"/>
 </navigation>
