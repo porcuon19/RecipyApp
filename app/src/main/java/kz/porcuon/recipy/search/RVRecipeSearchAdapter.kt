@@ -1,9 +1,13 @@
-package kz.porcuon.recipy
+package kz.porcuon.recipy.search
 
 import android.content.Context
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import kz.porcuon.recipy.R
+import kz.porcuon.recipy.models.Recipe
+import kz.porcuon.recipy.support.RVBaseAdapter
+import kz.porcuon.recipy.support.VHBase
 
 class RVRecipeSearchAdapter(
     private val context: Context,

@@ -1,4 +1,4 @@
-package kz.porcuon.recipy
+package kz.porcuon.recipy.support
 
 import androidx.recyclerview.widget.RecyclerView
 

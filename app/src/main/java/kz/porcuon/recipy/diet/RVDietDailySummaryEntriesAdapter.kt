@@ -1,9 +1,13 @@
-package kz.porcuon.recipy
+package kz.porcuon.recipy.diet
 
 import android.content.Context
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import kz.porcuon.recipy.R
+import kz.porcuon.recipy.models.DietDailySummaryEntry
+import kz.porcuon.recipy.support.RVBaseAdapter
+import kz.porcuon.recipy.support.VHBase
 
 class RVDietDailySummaryEntriesAdapter(
     private val context: Context,

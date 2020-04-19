@@ -1,9 +1,11 @@
-package kz.porcuon.recipy
+package kz.porcuon.recipy.change_password
 
 import android.os.Bundle
 import android.view.View
 import androidx.navigation.fragment.findNavController
 import kotlinx.android.synthetic.main.block_toolbar.*
+import kz.porcuon.recipy.R
+import kz.porcuon.recipy.support.BaseFragment
 
 class ChangePasswordFragment : BaseFragment() {
 

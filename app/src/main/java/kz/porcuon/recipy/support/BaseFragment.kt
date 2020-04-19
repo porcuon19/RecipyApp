@@ -1,4 +1,4 @@
-package kz.porcuon.recipy
+package kz.porcuon.recipy.support
 
 import android.os.Bundle
 import android.view.LayoutInflater

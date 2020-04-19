@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/loginFragment"
-        android:name="kz.porcuon.recipy.LoginFragment"
+        android:name="kz.porcuon.recipy.login.LoginFragment"
         android:label="LoginFragment"
         tools:layout="@layout/fragment_login">
         <action
@@ -27,7 +27,7 @@
     </fragment>
     <fragment
         android:id="@+id/registrationFragment"
-        android:name="kz.porcuon.recipy.RegistrationFragment"
+        android:name="kz.porcuon.recipy.registration.RegistrationFragment"
         android:label="RegistrationFragment"
         tools:layout="@layout/fragment_registration">
         <action
@@ -40,7 +40,7 @@
     </fragment>
     <fragment
         android:id="@+id/mainFragment"
-        android:name="kz.porcuon.recipy.MainFragment"
+        android:name="kz.porcuon.recipy.main.MainFragment"
         android:label="MainFragment"
         tools:layout="@layout/fragment_main">
         <action
@@ -60,12 +60,12 @@
     </fragment>
     <fragment
         android:id="@+id/changePasswordFragment"
-        android:name="kz.porcuon.recipy.ChangePasswordFragment"
+        android:name="kz.porcuon.recipy.change_password.ChangePasswordFragment"
         android:label="ChangePasswordFragment"
         tools:layout="@layout/fragment_change_password" />
     <fragment
         android:id="@+id/preferencesFragment"
-        android:name="kz.porcuon.recipy.PreferencesFragment"
+        android:name="kz.porcuon.recipy.preferences.PreferencesFragment"
         android:label="PreferencesFragment"
         tools:layout="@layout/fragment_preferences" />
 </navigation>

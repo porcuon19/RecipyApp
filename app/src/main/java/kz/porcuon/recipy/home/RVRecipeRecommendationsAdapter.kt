@@ -1,10 +1,14 @@
-package kz.porcuon.recipy
+package kz.porcuon.recipy.home
 
 import android.content.Context
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import kotlinx.android.synthetic.main.vh_recipe_recommendation.view.*
+import kz.porcuon.recipy.R
+import kz.porcuon.recipy.models.Recipe
+import kz.porcuon.recipy.support.RVBaseAdapter
+import kz.porcuon.recipy.support.VHBase
 
 class RVRecipeRecommendationsAdapter(
     private val context: Context,

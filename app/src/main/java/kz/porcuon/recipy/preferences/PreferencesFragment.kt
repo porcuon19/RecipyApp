@@ -1,4 +1,4 @@
-package kz.porcuon.recipy
+package kz.porcuon.recipy.preferences
 
 import android.os.Bundle
 import android.view.View
@@ -10,6 +10,8 @@ import com.google.android.material.chip.Chip
 import com.google.android.material.chip.ChipGroup
 import kotlinx.android.synthetic.main.block_toolbar.*
 import kotlinx.android.synthetic.main.fragment_preferences.*
+import kz.porcuon.recipy.R
+import kz.porcuon.recipy.support.BaseFragment
 import java.util.*
 
 class PreferencesFragment : BaseFragment() {
@@ -22,21 +24,21 @@ class PreferencesFragment : BaseFragment() {
             val random = Random()
             val number = random.nextInt(12)
             var preference = ""
-            for (x in 0 .. number) preference += "a"
+            for (x in 0..number) preference += "a"
             addChip(preference, cgCuisines)
         }
         ivAddDiet.setOnClickListener {
             val random = Random()
             val number = random.nextInt(12)
             var preference = ""
-            for (x in 0 .. number) preference += "b"
+            for (x in 0..number) preference += "b"
             addChip(preference, cgDiets)
         }
         ivAddExcludedIngredient.setOnClickListener {
             val random = Random()
             val number = random.nextInt(12)
             var preference = ""
-            for (x in 0 .. number) preference += "c"
+            for (x in 0..number) preference += "c"
             addChip(preference, cgExcludedIngredients)
         }
     }

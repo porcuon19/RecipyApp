@@ -1,4 +1,4 @@
-package kz.porcuon.recipy
+package kz.porcuon.recipy.models
 
 data class DietDailySummary(val date: String, val entries: MutableList<DietDailySummaryEntry>)
 
