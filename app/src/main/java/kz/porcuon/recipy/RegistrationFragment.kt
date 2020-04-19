@@ -12,5 +12,9 @@ class RegistrationFragment : BaseFragment() {
         tvSignIn.setOnClickListener {
             findNavController().popBackStack()
         }
+
+        btnRegistration.setOnClickListener {
+            findNavController().navigate(R.id.action_registrationFragment_to_preferencesFragment)
+        }
     }
 }

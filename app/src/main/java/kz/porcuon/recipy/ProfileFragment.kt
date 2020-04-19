@@ -17,7 +17,8 @@ class ProfileFragment : BaseFragment() {
             navController.navigate(R.id.action_mainFragment_to_changePasswordFragment)
         }
         tvPreferences.setOnClickListener {
-
+            val navController = Navigation.findNavController(activity!!, R.id.navHostFragment)
+            navController.navigate(R.id.action_mainFragment_to_preferencesFragment)
         }
         btnLogout.setOnClickListener {
 

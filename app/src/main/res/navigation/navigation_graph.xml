@@ -29,7 +29,15 @@
         android:id="@+id/registrationFragment"
         android:name="kz.porcuon.recipy.RegistrationFragment"
         android:label="RegistrationFragment"
-        tools:layout="@layout/fragment_registration"/>
+        tools:layout="@layout/fragment_registration">
+        <action
+            android:id="@+id/action_registrationFragment_to_preferencesFragment"
+            app:destination="@id/preferencesFragment"
+            app:enterAnim="@anim/enter_right_to_left"
+            app:exitAnim="@anim/exit_right_to_left"
+            app:popEnterAnim="@anim/enter_left_to_right"
+            app:popExitAnim="@anim/exit_left_to_right"/>
+    </fragment>
     <fragment
         android:id="@+id/mainFragment"
         android:name="kz.porcuon.recipy.MainFragment"
@@ -42,10 +50,22 @@
             app:exitAnim="@anim/nav_default_exit_anim"
             app:popEnterAnim="@anim/nav_default_pop_enter_anim"
             app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+        <action
+            android:id="@+id/action_mainFragment_to_preferencesFragment"
+            app:destination="@id/preferencesFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
     </fragment>
     <fragment
         android:id="@+id/changePasswordFragment"
         android:name="kz.porcuon.recipy.ChangePasswordFragment"
         android:label="ChangePasswordFragment"
-        tools:layout="@layout/fragment_change_password"/>
+        tools:layout="@layout/fragment_change_password" />
+    <fragment
+        android:id="@+id/preferencesFragment"
+        android:name="kz.porcuon.recipy.PreferencesFragment"
+        android:label="PreferencesFragment"
+        tools:layout="@layout/fragment_preferences" />
 </navigation>
