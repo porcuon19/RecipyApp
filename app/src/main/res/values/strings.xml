@@ -22,11 +22,21 @@
     <string name="fragment_registration_have_account">Already have an account?</string>
     <string name="fragment_registration_sign_in">Sign In</string>
 
+    <!--  FRAGMENT PREFERENCES  -->
+    <string name="fragment_preferences_title">Preferences</string>
+    <string name="fragment_preferences_cuisine">Cuisine</string>
+    <string name="fragment_preferences_diet">Diet</string>
+    <string name="fragment_preferences_excluded_ingredients">Excluded Ingredients</string>
+    <string name="fragment_preferences_confirm">Confirm</string>
+
     <!--  FRAGMENT HOME  -->
     <string name="fragment_home_recommendations">Recommendations</string>
     <string name="fragment_home_favorites">Favorites</string>
     <string name="fragment_home_cuisine">Cuisine</string>
     <string name="fragment_home_diet">Diet</string>
+
+    <!--  FRAGMENT SEARCH  -->
+    <string name="fragment_search_filter">Filter</string>
 
     <!--  FRAGMENT PROFILE  -->
     <string name="fragment_profile_change_profile">Change profile</string>
