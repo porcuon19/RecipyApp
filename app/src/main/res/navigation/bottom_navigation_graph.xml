@@ -16,10 +16,10 @@
         android:label="SearchFragment"
         tools:layout="@layout/fragment_search"/>
     <fragment
-        android:id="@+id/historyFragment"
-        android:name="kz.porcuon.recipy.HistoryFragment"
+        android:id="@+id/dietFragment"
+        android:name="kz.porcuon.recipy.DietFragment"
         android:label="HistoryFragment"
-        tools:layout="@layout/fragment_history"/>
+        tools:layout="@layout/fragment_diet"/>
     <fragment
         android:id="@+id/profileFragment"
         android:name="kz.porcuon.recipy.ProfileFragment"

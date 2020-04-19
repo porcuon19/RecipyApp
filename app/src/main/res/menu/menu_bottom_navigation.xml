@@ -17,10 +17,10 @@
         app:showAsAction="ifRoom" />
 
     <item
-        android:id="@+id/historyFragment"
+        android:id="@+id/dietFragment"
         android:enabled="true"
         android:icon="@drawable/ic_history_black"
-        android:title="History"
+        android:title="Diet"
         app:showAsAction="ifRoom" />
 
     <item

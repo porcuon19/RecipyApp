@@ -38,6 +38,9 @@
     <!--  FRAGMENT SEARCH  -->
     <string name="fragment_search_filter">Filter</string>
 
+    <!--  FRAGMENT DIET  -->
+    <string name="fragment_diet_title">Your diet</string>
+
     <!--  FRAGMENT PROFILE  -->
     <string name="fragment_profile_change_profile">Change profile</string>
     <string name="fragment_profile_change_password">Change password</string>
