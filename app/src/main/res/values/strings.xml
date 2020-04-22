@@ -53,4 +53,8 @@
     <string name="fragment_change_password_new">New password</string>
     <string name="fragment_change_password_new_confirm">Confirm new password</string>
     <string name="fragment_change_password_confirm">Confirm</string>
+
+    <!--  FRAGMENT COOKING  -->
+    <string name="fragment_cooking_title">Cooking</string>
+    <string name="fragment_cooking_finish">Finish</string>
 </resources>
