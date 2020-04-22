@@ -7,6 +7,7 @@
         <item name="colorAccent">@color/colorAccent</item>
         <item name="android:statusBarColor">@color/colorAccentWhite</item>
         <item name="android:windowLightStatusBar">true</item>
+        <item name="fontFamily">@font/montserrat</item>
     </style>
 
     <style name="DefaultEditText">
