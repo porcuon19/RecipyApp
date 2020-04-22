@@ -57,4 +57,9 @@
     <!--  FRAGMENT COOKING  -->
     <string name="fragment_cooking_title">Cooking</string>
     <string name="fragment_cooking_finish">Finish</string>
+
+    <!--  FRAGMENT SEND REVIEW  -->
+    <string name="fragment_send_review_leave_review">Leave a review</string>
+    <string name="fragment_send_review_enter_here">Enter here</string>
+    <string name="fragment_send_review_send">Send</string>
 </resources>
